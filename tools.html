@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Инструменты – Летняя школа ИИ‑агентов</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><h1>Инструменты</h1></header>
+  <section>
+    <p>Как установить и настроить инструменты для работы с агентами (Python, Docker, LangChain и др.).</p>
+    <h2>Python</h2>
+    <pre>python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt</pre>
+    <h2>Docker</h2>
+    <pre>docker pull python:3.11-slim
+docker run -it --rm -v $(pwd):/app python:3.11-slim bash</pre>
+    <h2>LangChain</h2>
+    <pre>pip install langchain openai</pre>
+    <a href="prompts.html">Перейти к готовым промтам</a>
+  </section>
+</body>
+</html>

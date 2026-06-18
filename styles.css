@@ -1,0 +1,9 @@
+/* styles.css – базовые стили для всех страниц */
+body {font-family:Arial, sans-serif; margin:0; padding:2rem; line-height:1.5; background:#f9f9f9; color:#333;}
+header {background:#004466; color:#fff; padding:1rem; margin-bottom:2rem;}
+h1 {margin:0;}
+section {max-width:800px; margin:auto;}
+a {color:#0066aa; text-decoration:none;}
+a.cta, button {display:inline-block; margin-top:.5rem; padding:.6rem 1.2rem; background:#0088cc; color:#fff; border:none; cursor:pointer;}
+pre {background:#eee; padding:1rem; overflow-x:auto;}
+button {background:#0055aa;}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Промты – Летняя школа ИИ‑агентов</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><h1>Промты</h1></header>
+  <section>
+    <p>Ниже – готовые промты для практических заданий.</p>
+    <h2>Создание базового агента</h2>
+    <pre class="prompt">You are an AI agent that helps users find information about AI agents. Respond concisely and ask clarifying questions when needed.</pre>
+    <button onclick="navigator.clipboard.writeText(document.querySelectorAll('.prompt')[0].innerText)">Скопировать</button>
+
+    <h2>Планирование проекта</h2>
+    <pre class="prompt">Create a step‑by‑step plan to build a simple AI chatbot using LangChain and OpenAI API. Include setup, code structure, and testing.</pre>
+    <button onclick="navigator.clipboard.writeText(document.querySelectorAll('.prompt')[1].innerText)">Скопировать</button>
+
+    <h2>Отладка агента</h2>
+    <pre class="prompt">Given the following Python code for an AI agent, identify and fix any bugs, and suggest improvements.</pre>
+    <button onclick="navigator.clipboard.writeText(document.querySelectorAll('.prompt')[2].innerText)">Скопировать</button>
+
+    <br><a href="index.html">Вернуться на главную</a>
+  </section>
+</body>
+</html>
